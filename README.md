@@ -1,3 +1,13 @@
+# Repository Info
+This repository is a fork of the team project developed as part of CSIT314 at University of Wollongong Australia. My contributions focused on Typesense integration, database schema design, query processing, and backend implementation. The Typesense integration is exposed as a custom interface library I wrote for use in the backend endpoints.
+
+The Intelligent Job-Matching Platform is a full-stack web application with the design purpose of being an employment website. Not unlike other employment websites, such as Jora, Seek & LinkedIn, the web-application will also be designed with consideration of both employer and employees’ specific functions, including profile and job-posting creation, powerful search features, and AI-powered recommendations for seeking jobs and candidates. The recommendation engine uses semantic embeddings and hybrid search to improve candidate-job retrieval, including:
+* Embedding generation via sentence-transformers
+* Vector similarity search
+* Keyword-based fuzzy text search
+* Hard filter search
+* Typesense hybrid-search ranking/retrieval pipeline
+
 # Setup Instructions  
 This section provides essential information for the setup of the intelligent job-matching platform for **local hosting**.  
 

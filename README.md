@@ -1,12 +1,22 @@
 # Repository Info
-This repository is a fork of the team project developed as part of CSIT314 at University of Wollongong Australia. My contributions focused on Typesense integration, database schema design, query processing, and backend implementation. The Typesense integration is exposed as a custom interface library I wrote for use in the backend endpoints.
+This repository is a clone of the team project developed as part of CSIT314 at University of Wollongong Australia. This clone is my portfolio version and highlights my contributions of Typesense integration involving collections schema design, embedding-based retrieval, and Typesense hybrid search pipeline. The Typesense integration is exposed as a custom interface library I wrote for use in the backend endpoints.
 
-The Intelligent Job-Matching Platform is a full-stack web application with the design purpose of being an employment website. Not unlike other employment websites, such as Jora, Seek & LinkedIn, the web-application will also be designed with consideration of both employer and employees’ specific functions, including profile and job-posting creation, powerful search features, and AI-powered recommendations for seeking jobs and candidates. The recommendation engine uses semantic embeddings and hybrid search to improve candidate-job retrieval, including:
-* Embedding generation via sentence-transformers
+# Overview
+The Intelligent Job-Matching Platform is a full-stack web application with the design purpose of being an employment website. Not unlike other employment websites, such as Jora, Seek & LinkedIn, the web-application will also be designed with consideration of both employer and employees’ specific functions, including profile and job-posting creation, powerful search features, and AI-powered recommendations for seeking jobs and candidates.
+
+The recommendation engine uses semantic embeddings and hybrid search to improve candidate-job retrieval, including:
+* Embedding generation via SentenceTransformers
 * Vector similarity search
 * Keyword-based fuzzy text search
 * Hard filter search
 * Typesense hybrid-search ranking/retrieval pipeline
+
+# Tech Stacks
+The application was developed with the following frameworks and tools:
+- Flask  
+- React.js  
+- Typesense  
+- SentenceTransformers
 
 # Setup Instructions  
 This section provides essential information for the setup of the intelligent job-matching platform for **local hosting**.  
